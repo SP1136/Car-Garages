@@ -1,0 +1,199 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* bground mix color ( https://cssgradient.io/ ) */
+body {
+	background: #000000e8;
+	color: #ffffff;
+}
+.Customer button:hover {
+	background-color: rgb(250 204 21);
+	color: #000;
+	font-weight: 500;
+}
+.Recommended button:hover {
+	background-color: rgb(250 204 21);
+	color: #000;
+	font-weight: 500;
+}
+.employee button:hover>.img12 {
+	background-color: rgb(250 204 21);
+	color: #000;
+	font-weight: 500;
+}
+.employee-detils button:hover>.img12 {
+	background-color: rgb(250 204 21);
+	color: #000;
+	font-weight: 500;
+}
+.inimg img {
+	transform: scale(1);
+	transition: 0.3s ease-in-out;
+}
+.inimg img:hover {
+	transform: scale(1.3);
+}
+code:hover {
+	background: #000;
+	color: #fff;
+	font-weight: 600;
+}
+/* two car  */
+.car1 {
+	overflow: hidden;
+}
+.car1 img {
+	transform: scale(1);
+	transition: 0.3s ease-in-out;
+}
+.car1 img:hover {
+	transform: scale(1.3);
+}
+/* Customer first product */
+.inimg1 img {
+	transform: scale(1);
+	transition: 0.3s ease-in-out;
+}
+.inimg1 img:hover {
+	transform: scale(1.1);
+}
+
+/* img in second img  */
+/* 1 */
+.img11 {
+	position: relative;
+	z-index: 1;
+}
+.img12 {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.img12:hover {
+	opacity: 0;
+}
+
+/* 2 */
+.img13 {
+	position: relative;
+	z-index: 1;
+}
+/* 3 */
+.img15 {
+	position: relative;
+	z-index: 1;
+}
+/* 4 */
+.img17 {
+	position: relative;
+	z-index: 1;
+}
+/* 5 */
+.img19 {
+	position: relative;
+	z-index: 1;
+}
+
+/* Recommended for You */
+.inimg2 {
+	overflow: hidden;
+}
+.employee-name {
+	color: #fff;
+	font-weight: bold;
+	padding: 5px;
+}
+.employee:hover {
+	margin-top: 00px;
+}
+.employee:hover>.img12 {
+	opacity: 0;
+}
+.employee-name h1 {
+	font-size: 30px;
+}
+.inimg2 img {
+	transform: scale(1);
+	transition: 0.4s ease-in-out;
+	overflow: hidden;
+	margin-bottom: -10px;
+}
+.inimg2 img:hover {
+	transform: scale(1.1);
+	margin-bottom: 10px;
+}
+
+/* Shop by Brands */
+.inimg3 img {
+	transform: scale(1);
+	transition: 0.3s ease-in-out;
+}
+.inimg3 img:hover {
+	transform: scale(1.1);
+}
+
+/* Customer Most Loved  */
+.inimg4 img {
+	transform: scale(1);
+	transition: 0.3s ease-in-out;
+}
+.inimg4 img:hover {
+	transform: scale(1.1);
+}
+
+/* last content  */
+.imgbox {
+	position: relative;
+}
+.imgbox .im a::before {
+	position: absolute;
+	top: 1;
+	left: -11.5%;
+	z-index: 0;
+	display: block;
+	content: "";
+	width: 10%;
+	height: 100%;
+	background: linear-gradient(to right, rgba(214, 213, 213, 0.048) 0%, rgba(119, 119, 119, 0.39) 100%);
+	transform: skewX(0deg);
+}
+.imgbox .im a:hover::before {
+	animation: shine 0.75s;
+}
+
+@keyframes shine {
+	100% {
+		left: 89.5%;
+	}
+}
+
+.employee-image:hover>.img12 {
+	opacity: 0;
+}
+.employee {
+	overflow: hidden;
+	height: 380px;
+	border-radius: 10px;
+}
+.employee:hover>.employee-image {
+	margin-top: -80px;
+}
+.employee-image {
+	height: 400px;
+	width: 100%;
+	transition: 0.5s;
+	position: relative;
+}
+.employee-name {
+	color: #fff;
+	font-weight: bold;
+	padding: 0px;
+}
+.inimg3 {
+	overflow: hidden;
+}
